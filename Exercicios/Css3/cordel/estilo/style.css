@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2:'Passion One', cursive;
@@ -54,15 +55,16 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.555);
     display: inline-block;
     padding: 5px;
-    text
 }
 section#img01{
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
+    background-size: cover;
 }
 section#img02{
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
+    background-size: cover;
 }
 .normal{
     background-color: white;
@@ -71,9 +73,11 @@ section#img02{
 .imagem{
     background-color: rgb(49, 47, 47);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+    background-attachment: fixed;
 }
 footer{
     background-color: black;
     text-align: center;
     color: white;
-    pa
+}
